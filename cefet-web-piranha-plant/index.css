@@ -1,0 +1,118 @@
+h1 {
+	display: block;
+	font-size: 28px;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: bold;
+	color: limegreen;
+	font-family: 'Times New Roman', serif;
+}
+
+h2 {
+	display: block;
+	font-size: 22px;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: bold;
+	color: limegreen;
+	font-family: 'Times New Roman', serif;
+}
+
+p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Arial', sans-serif;
+	font-size:14px;
+	text-align:justify;
+
+}
+
+strong{
+	font-weight:bold;
+}
+
+em{
+	font-style: italic;
+}
+
+mark {
+	background-color: yellow;
+	color: black;
+}
+
+blockquote {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+q {
+	display: inline;
+	font-style: italic;
+}
+
+	q:before {
+		content: open-quote;
+	}
+
+	q:after {
+		content: close-quote;
+	}
+
+a:link, a:visited {
+	color: blue;
+	text-decoration: underline;
+	cursor: auto;
+}
+
+	a:link:active, a:visited:active {
+		color: blue;
+	}
+
+
+img{
+	display : block;
+	margin-left: auto;
+	margin-right: auto;
+	border:8px solid;
+	border-color: limegreen;
+
+	
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 40px;
+}
+
+
+
+.citacao{
+	padding-left:60px;
+}
+
+.vocesabia {
+	margin: 0px,15%,0px,15%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 3px solid;
+	border-color: limegreen;
+	background-image: url('imagens/fundo.png');
+}
+

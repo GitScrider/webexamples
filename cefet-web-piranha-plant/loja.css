@@ -1,0 +1,102 @@
+body {
+    background-image: url('imagens/desenho-loucao.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    display: block;
+    font-size: 28px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    color: limegreen;
+    font-family: 'Times New Roman', serif;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-collapse:collapse;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    text-align: center;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    background-color: dimgray;
+    border: 2px solid black;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+q {
+    display: inline;
+    font-style: italic;
+}
+
+    q:before {
+        content: open-quote;
+    }
+
+    q:after {
+        content: close-quote;
+    }
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+    a:link:active, a:visited:active {
+        color: blue;
+    }
